@@ -16,7 +16,7 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 @Builder
-@Table(name = "genres")
+@Table(name = "Movie_Genres")
 public class GenresDto {
   private Long genreIdx;
   private Long genreId;

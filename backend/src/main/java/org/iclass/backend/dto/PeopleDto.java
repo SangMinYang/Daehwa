@@ -16,7 +16,7 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 @Builder
-@Table(name = "people")
+@Table(name = "People")
 public class PeopleDto {
   private Long personIdx;
   private Long tmdbPersonId;

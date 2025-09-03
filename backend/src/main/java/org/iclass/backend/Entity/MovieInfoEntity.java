@@ -37,7 +37,7 @@ public class MovieInfoEntity {
   private Double voteAverage = 0.0;
   private Integer adult = 0;
 
-  @Column(nullable = false, length = 500)
+  @Column(nullable = false, length = 2000)
   private String overview;
 
   @Column(name = "backdrop_path")
